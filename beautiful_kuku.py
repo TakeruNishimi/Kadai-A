@@ -1,8 +1,8 @@
 def main():
-    row = 9
-    col = 9
-    for i in range(1, row + 1):
-        for j in range(1, col + 1):
+    row = input("行数を入力してください。　＞　")
+    col = input("列数を入力してください。　＞　")
+    for i in range(1, int(row) + 1):
+        for j in range(1, int(col) + 1):
             print_formula(i, j)
         print()
 
